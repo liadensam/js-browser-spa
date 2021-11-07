@@ -8,10 +8,12 @@
   </head>
   <body>
     <nav class="nav">
-      <a href="/" class="nav__link" data-link="">Dashboard</a>
-      <a href="/posts" class="nav__link" data-link="">Posts</a>
-      <a href="/settings" class="nav__link" data-link="">Settings</a>
+      <!--data-link using history API, push state method-->
+      <a href="/frontend/" class="nav__link" data-link="">Dashboard</a>
+      <a href="/frontend/posts" class="nav__link" data-link="">Posts</a>
+      <a href="/frontend/settings" class="nav__link" data-link="">Settings</a>
     </nav>
+    <!--method - using advatage of ES6 import/export syntax with modules, each separate view in nav, they each will have their own separate javascript class-->
     <script type="module" src="./static/js/index.js"></script>
   </body>
 </html>
