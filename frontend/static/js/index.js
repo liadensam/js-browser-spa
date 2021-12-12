@@ -6,7 +6,7 @@ import Contact from "./views/Contact.js";
 //checking if index.js is working, our entry point, entry site
 //console.log("index.js loaded")
 
-
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
 
